@@ -70,6 +70,72 @@ button.btn-contact{
 
 }
 
+.first-paragraph{
+    background-color: #3CDDF3;
+    box-sizing: border-box;
+}
+
+
+.first-question{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.first-paragraph-div{
+    
+    padding: 1rem 2rem 1rem 3rem;
+
+}
+
+.sub-first-question{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    
+
+
+}
+
+.first-paragraph{
+    background-color: #3CDDF3;
+    box-sizing: border-box;
+}
+
+
+.first-question{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.first-paragraph-div{
+    
+    padding: 1rem 2rem 1rem 3rem;
+
+}
+
+.sub-first-question{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    
+
+
+}
+
 footer{
     background-color: #1E1E26;
     display: flex;
