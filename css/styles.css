@@ -353,3 +353,11 @@ a {
     padding-bottom: 2rem;
     color: #8C8C94;
 }
+
+
+@media (min-width: 1440px){
+   .first-paragraph{
+    background-color: #8B48BF;
+   }
+
+}
