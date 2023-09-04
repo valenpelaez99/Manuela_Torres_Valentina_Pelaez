@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -133,6 +134,51 @@ button.btn-contact{
     letter-spacing: 0em;
     
 
+
+}
+
+.characteristics{
+    margin: 3rem 0rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.numeration{
+    background-color: #8B48BF;
+    color: white;
+    padding: 11px 25px 12px 25px;;
+    border-radius: 30px;
+    gap: 10px;
+    font-weight: 500;
+
+}
+
+.content-numeration{
+    background-color: rgba(139, 72, 191, 0.3);
+    color: black;
+    padding: 10px 25px 10px 0px;
+    border-radius: 50px 0px 0px 50px;
+    gap: 8px
+    
+
+}
+
+.title-numeration{
+    padding-left: 1rem;    
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color:  #1E1E26;
+
+}
+
+.content-characteristics{
+    padding: 0.625rem 1.563rem 0.625rem 0.625rem;
+    margin-top: 0rem;
+    color: #B3B2B7;
 
 }
 
