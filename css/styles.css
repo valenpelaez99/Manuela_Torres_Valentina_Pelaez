@@ -62,7 +62,7 @@ button.btn-contact{
     background-color: #8B48BF;
     border: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 50px;
     height: 2.3rem;
     width: 6.3rem;
     font-size: x-small;
@@ -78,7 +78,7 @@ button.btn-contact{
 
 .first-question{
     color: white;
-    font-size: 36px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 41px;
     letter-spacing: 0em;
@@ -138,24 +138,103 @@ button.btn-contact{
 
 footer{
     background-color: #1E1E26;
-    display: flex;
-    justify-content: center;
     color: #FFFFFF;
 }
 
-.form-menu{    display: flex;
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-menu{    
+    display: flex;
     justify-content: space-between;
 
 }
 
-.form{
-    display: flex;
-    margin-top: 2rem;
+
+.input-form{
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+    color: rgb(249, 249, 249);
+    border: 0;
+    border-radius: 50px;
+    height: 2.3rem;
+    width: 20rem;
+    font-size: x-small;
+    font-weight: 500;
+    padding-left: 0.6rem;
+    
+}
+
+.input-form::placeholder{
+    opacity: 0.6;
+}
+
+
+.go-bttn{
+    margin-top: 3rem;
+    background-color: #8B48BF;
     border: none;
     color: white;
     border-radius: 50px;
     height: 2.3rem;
-    width: 6.3rem;
+    width: 3.5rem;
     font-size: x-small;
     text-align: center;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 21.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    padding: 2.5rem;
+    
+}
+
+.menu1 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    margin: 0;
+  }
+
+.menu2 ul {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-right: 2rem;
+margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+
+.logo-footer{
+    padding-top: 3rem;
+}
+
+.copyright{
+    padding-top: 2rem;
+    color: #8C8C94;
 }
