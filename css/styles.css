@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -29,6 +30,8 @@ body{
 img.paddel{
     max-width: 100%;
 }
+
+
 
 .main-title{
 
@@ -135,6 +138,118 @@ button.btn-contact{
 
 
 }
+
+.characteristics{
+    margin: 3rem 0rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.numeration{
+    background-color: #8B48BF;
+    color: white;
+    padding: 11px 25px 12px 25px;;
+    border-radius: 30px;
+    gap: 10px;
+    font-weight: 500;
+
+}
+
+.content-numeration{
+    background-color: rgba(139, 72, 191, 0.3);
+    color: black;
+    padding: 10px 25px 10px 0px;
+    border-radius: 50px 0px 0px 50px;
+    gap: 8px
+    
+
+}
+
+.title-numeration{
+    padding-left: 1rem;    
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color:  #1E1E26;
+
+}
+
+.content-characteristics{
+    padding: 0.625rem 1.563rem 0.625rem 0.625rem;
+    margin-top: 0rem;
+    color: #B3B2B7;
+
+}
+
+.best-of-the-month{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    
+}
+
+img.lebron{
+    width: 4.375rem;
+    height: 4.375rem;
+    display: block;  
+    margin: 0 auto;
+    position: relative;
+    top: 2.5rem;    
+
+
+}
+
+.athlete-description{
+    background-color:  #FAFAFA;
+    padding: 60px 25px 20px 25px;
+    margin-left: 1.125rem;
+    margin-right: 1.125rem;
+    color: #B3B2B7;
+
+}
+
+.athlete-name{
+    color: #232851;   
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+button.btn-more{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #8B48BF;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    height: 2.3rem;
+    width: 6.3rem;
+    font-size: x-small;
+    text-align: center;
+
+}
+
+h2{
+    color: #232851;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    display: inline-block; 
+   
+
+}
+
+
 
 footer{
     background-color: #1E1E26;
