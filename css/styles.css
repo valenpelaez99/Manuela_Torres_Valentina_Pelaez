@@ -356,8 +356,79 @@ a {
 
 
 @media (min-width: 1440px){
-   .first-paragraph{
-    background-color: #8B48BF;
+
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2rem;
+        padding: 1.2rem 1.5rem 4rem 5rem;
+        box-sizing: border-box;
+    }
+
+    img.icon-burguer{
+        display: none;
+    }
+
+   .intro{
+    box-sizing: border-box;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
    }
+
+    img.paddel{
+        width: 40rem;
+
+    }
+
+    .main-title{
+        box-sizing: border-box;
+        width: 30rem;
+        
+    }
+    
+    .first-paragraph, .second-paragraph{
+        background-color: #8B48BF;
+        box-sizing: border-box;
+    }
+
+    .first-paragraph-div{
+        display: flex;
+        justify-content: space-evenly;    
+        padding: 1rem 2rem 1rem 1rem;
+    
+    }
+    
+    .second-paragraph{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 4rem 0rem 10rem;
+    }
+
+    button.btn-go-for-it{
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        margin-right: 6rem;
+        background-color: #FFFFFF;
+        border: none;
+        color: #8B48BF;
+        border-radius: 1.25rem;
+        height: 2.3rem;
+        width: 6.3rem;
+        font-size: x-small;
+        text-align: center;
+        box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+        
+    
+    }
+    
+
+
+
 
 }
