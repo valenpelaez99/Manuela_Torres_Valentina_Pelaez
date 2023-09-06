@@ -24,6 +24,15 @@ img.icon-burguer{
     width: 10vw;
 }
 
+.menu ul{
+    display: none;
+}
+
+button.btn-contact1 {
+    display: none;
+}
+
+
 .intro{
     box-sizing: border-box;
     margin: 2rem;
@@ -332,7 +341,7 @@ li {
     list-style-type: none;
 }
 
-a {
+.item-nav {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -363,8 +372,40 @@ a {
         align-items: center;
         justify-content: space-between;
         margin: 2rem;
+        margin-right: 6.25rem;
         padding: 1.2rem 1.5rem 4rem 5rem;
         box-sizing: border-box;
+    }
+
+    .menu{
+        width: 24rem;
+    }
+
+    .menu ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+
+    .it-nav {
+        color: #242E52;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    button.btn-contact1 {
+        display: block;
+        background-color: #8B48BF;
+        border: none;
+        color: white;
+        border-radius: 3.1rem;
+        height: 2.3rem;
+        width: 6.3rem;
+        font-size: x-small;
+        text-align: center;
+
     }
 
     img.icon-burguer{
