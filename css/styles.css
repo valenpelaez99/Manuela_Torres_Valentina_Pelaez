@@ -171,7 +171,7 @@ button.btn-contact{
     
 }
 
-img.lebron{
+img.avatar-athlete{
     width: 4.375rem;
     height: 4.375rem;
     display: block;  
@@ -363,6 +363,14 @@ li {
     color: #8C8C94;
 }
 
+.ath{
+    display: flex;
+}
+
+.no-lebron{
+    display: none;
+}
+
 
 @media (min-width: 1440px){
 
@@ -525,7 +533,38 @@ li {
         
     
     }
+
+    .info{
+        text-align: initial;
+    }
     
+    .ath{
+        display: flex;
+        justify-content: center;
+        background-color:#FAFAFA ;
+    }
+    
+    img.avatar-athlete{
+        top: -1.5rem;
+        left: 15rem; 
+    }
+
+    .no-lebron{
+        display: contents;
+    }
+
+    .lebron{
+        display: contents;
+    }
+   
+    .athlete-description{
+        font-weight: 500;
+        padding: 3.75rem 0rem 0rem 0rem;
+        margin: 0rem;
+    }
+
+ 
+
 
 
 
