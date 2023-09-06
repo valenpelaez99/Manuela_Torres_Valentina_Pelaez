@@ -360,4 +360,63 @@ a {
     background-color: #8B48BF;
    }
 
+
+   .footer{
+    flex-direction: row-reverse;
+    position: relative;
+    padding-bottom: 2rem;
+   }
+
+   .formulario{
+    display: flex;
+    padding: 3.125rem 6.25rem ;
+    position: relative;
+    bottom: 2rem;
+    left: 8rem;
+   }
+
+    .input-form{
+        width: 10rem;
+        margin-right: 1rem;
+
+    }
+
+    .icons{
+        justify-content: space-evenly;
+        width: 15%;
+        position: absolute;
+        left: 5rem;
+        bottom: 2rem;
+    }
+
+    .copyright{
+        font-size: 0.6rem;
+        order: -1;
+        position: absolute;
+        top: 8.5rem;
+        right:9rem;
+        
+    }
+
+    .form-menu{
+        width: 6.25rem;
+    }
+
+    .logo-footer{
+        padding-top: 3rem;
+        position: absolute;
+        left: 6.6rem;
+        top:2rem;
+    }
+
+    .menu1 ul{
+        padding-left: 0rem;
+
+    }    
+
+    .menu2 ul{
+        padding-right: 0rem;
+
+    }   
+
 }
