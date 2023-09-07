@@ -501,11 +501,12 @@ a {
         display: flex;
         justify-content: center;
         background-color:#FAFAFA ;
+        padding-right: 70px;
     }
     
     img.avatar-athlete{
         top: -1.5rem;
-        left: 15rem; 
+        left: 14rem; 
     }
 
     .no-lebron{
@@ -519,8 +520,9 @@ a {
     .athlete-description{
         font-weight: 500;
         padding: 3.75rem 0rem 0rem 0rem;
-        margin: 0rem;
-    }
+        margin-right: 2rem;
+
+        }
 
  
 
