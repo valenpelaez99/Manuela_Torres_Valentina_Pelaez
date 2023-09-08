@@ -124,6 +124,7 @@ button.btn-contact{
     
 }
 
+
 .numeration{
     background-color: #8B48BF;
     color: white;
@@ -371,6 +372,14 @@ li {
     display: none;
 }
 
+a:hover{
+    color: blue;
+}
+
+input:focus{
+    color:black;
+    font-weight: 400;
+} 
 
 @media (min-width: 1440px){
 
@@ -515,6 +524,40 @@ li {
         justify-content: space-between;
         align-items: center;
         padding: 0.5rem 4rem 0rem 10rem;
+    }
+
+    .characteristics{
+        align-items: center;
+    }
+
+    .content-numeration{
+        background-color: white;
+        color: black;
+        padding: 0.625rem 1.563rem 0.625rem 0rem;
+        border-radius: 3.125rem 0rem 0rem 3.125rem;
+        gap: 0.5rem
+    
+    }
+
+    .box1{
+        display: flex;
+        width: 70.8rem;
+    }
+
+    .p1, .p2, .p3{
+        width: 34.5rem;
+    }
+
+    .p1{
+        padding-right: 2rem;
+    }
+
+    .box2{
+        display: flex;
+    }
+
+    .content-characteristics{
+        margin-left: 5rem;
     }
 
     button.btn-go-for-it{
